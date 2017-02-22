@@ -28,6 +28,10 @@ use Muffin\Footprint\Auth\FootprintAwareTrait;
  */
 class AppController extends Controller
 {
+
+    /*
+     * Commenting/removing this line will avoid the issue
+     */
     use FootprintAwareTrait;
 
     /**

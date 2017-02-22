@@ -8,8 +8,8 @@
     <?= $this->Form->create() ?>
     <fieldset>
         <legend><?= __('Please enter your username and password') ?></legend>
-        <?= $this->Form->input('username') ?>
-        <?= $this->Form->input('password') ?>
+        <?= $this->Form->input('username', ['label' => __('Username (jhondoe)')]) ?>
+        <?= $this->Form->input('password', ['label' => __('Password (123123)')]) ?>
     </fieldset>
     <?= $this->Form->button(__('Login')); ?>
     <?= $this->Form->end() ?>
